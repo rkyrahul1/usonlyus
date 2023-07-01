@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/usonlyus" element={<Iloveyou />}></Route>
-          <Route path="/us" element={<Us/>}></Route>
+          <Route path="/usonlyus/us" element={<Us/>}></Route>
           {/* <Route index element={<Home />} />
           <Route path="/" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
